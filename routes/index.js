@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var kafka = require('kafka');
+var kafka = require('kafka'); 
 
 /* GET home page.node --debug=5858 ./bin/www */
 router.get('/', function(req, res, next) {
